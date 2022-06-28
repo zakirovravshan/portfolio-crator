@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+        url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/roboto-v30-latin-regular.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* roboto-700 - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+        url('../fonts/roboto-v30-latin-700.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/roboto-v30-latin-700.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1255px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.content {
+    margin: 0 55px;
+}
+
+.content-text {
+    margin-top: 150px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #FF5E69;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.content-title-box {
+    width: 768px;
+    margin-left: 226px;
+    margin-bottom: 117px;
+}
+
+.content-title {
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 59px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #000000;
+}
+
+.content-inner {
+    display: flex;
+
+}
+
+.content-list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+
+}
+
+.content-item {
+    width: 285px;
+}
+
+.content-img {
+    margin-bottom: 39px;
+}
+
+.content-item-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    color: #000000;
+    margin-bottom: 24px;
+}
+
+.content-item-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #666666;
+    margin-bottom: 21px;
+}
+
+.content-sublist {
+    list-style-type: square;
+    padding-left: 15px;
+}
+
+.content-subitem {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    color: #000000;
+
+}
