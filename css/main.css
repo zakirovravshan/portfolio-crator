@@ -149,7 +149,8 @@ body {
     text-align: center;
     margin-bottom: 45px;
 }
-.partners-links{
+
+.partners-links {
     display: inline-block;
     display: flex;
     align-items: center;
@@ -160,11 +161,14 @@ body {
 
 /* ----------------------------------------------------- CONTENT------------------------------------------- */
 
-
+.content-section{
+    position: relative;
+}
 .content {
+    position: relative;
     width: 1098px;
     margin: 0 auto;
-
+    margin-bottom: 167px;
 }
 
 .content-text {
@@ -244,4 +248,95 @@ body {
     line-height: 28px;
     color: #000000;
 
+}
+
+/* ------------------------------------------PROOF--------------------------------------------- */
+.feedback {
+    margin-top: 100px;
+}
+
+.feedback-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 355px;
+}
+
+.feedback-text {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #B16CEA;
+    margin-bottom: 20px;
+}
+
+.feedback-title {
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 59px;
+    letter-spacing: 1px;
+    color: #000000;
+}
+
+.feedback-link {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: #FFFFFF;
+    background: #000000;
+    border-radius: 0px;
+    padding: 17px 30px 23px 30px;
+    text-decoration: none;
+}
+
+.feedback-list {
+    position: absolute;
+    bottom: -500px;
+    display: flex;
+    list-style-type: none;
+    
+}
+
+.feedback-item{
+    margin-right: 24px;
+    background-color: white;
+}
+.feedback-img {
+    margin-bottom: 33px;
+}
+
+
+.feedback-item-text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #3C46FF;
+    margin-bottom: 17px;
+}
+
+.feedback-item-title {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    color: #000000;
+    margin-bottom: 19px;
+}
+
+.feedback-item-link {
+    display: block;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: #000000;
+    text-decoration: none;
+    margin-bottom: 17px;
+}
+
+.blogs{
+    background-color: #000000;
 }
